@@ -1,1 +1,1 @@
-web: python diaginy.py
+web: gunicorn Diaginy:main
